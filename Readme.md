@@ -81,7 +81,7 @@ uvicorn main:app --reload
 ---
 
 ## **🎥 Video Demonstration**  
-📌 _[Add a link to a YouTube demo or Loom video]_  
+📌 _[[video](https://youtu.be/X-HfBVSc_GI)]_  
 
 ---
 
