@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Check if userId is present in localStorage
     if (localStorage.getItem("userId")) {
-        window.location.href = "/dashboard";
+        window.location.href = "/dashboard/";
         return; // Stop further execution
     }
 
@@ -44,10 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Redirect on button click
     signInBtn.addEventListener("click", () => {
-        window.location.href = "/login";
+        window.location.href = "/login/";
     });
 
     signUpBtn.addEventListener("click", () => {
-        window.location.href = "/signup/index.html";
+        window.location.href = "/signup/";
     });
 });
