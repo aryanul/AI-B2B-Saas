@@ -61,7 +61,8 @@ AI-Marketing-SaaS/
 ```bash
 pip install -r requirements.txt
 ```
-2️⃣ Run FastAPI server:  
+2️⃣ Run FastAPI server:
+
 ```bash
 uvicorn main:app --reload
 ```
@@ -86,10 +87,10 @@ uvicorn main:app --reload
 ---
 
 ## **🖼️ Screenshots**  
-### **🔹 Dashboard View**  
-![Dashboard Screenshot](path/to/image.png)  
-### **🔹 Product Page**  
-![Product Screenshot](path/to/image.png)  
+![1.](https://github.com/user-attachments/assets/fadfcfe2-a1d8-4cc5-bf6f-16c21ed0c85b)
+!2.](https://github.com/user-attachments/assets/9c4a6258-c2b7-4f6c-a959-37ef64aad31b)
+![3.](https://github.com/user-attachments/assets/92e4f15b-97ef-4e66-a51f-9c5453735659)
+![4.](https://github.com/user-attachments/assets/9334b197-aa65-4453-a34c-8acbbc354698)
 
 ---
 
