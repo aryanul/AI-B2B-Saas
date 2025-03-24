@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Get elements
     const modal = document.getElementById("popup-modal");
     const btn = document.querySelector(".get-started-btn");
+    const btn2 = document.querySelector(".cta-btn");
     const closeBtn = document.querySelector(".close");
     const signInBtn = document.getElementById("signin-btn");
     const signUpBtn = document.getElementById("signup-btn");
@@ -26,6 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Show modal when "Get Started" button is clicked
     btn.addEventListener("click", (event) => {
+        event.preventDefault();
+        modal.style.display = "flex";
+    });
+
+    btn2.addEventListener("click", (event) => {
         event.preventDefault();
         modal.style.display = "flex";
     });
