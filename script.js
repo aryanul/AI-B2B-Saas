@@ -48,6 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     signUpBtn.addEventListener("click", () => {
-        window.location.href = "/signup";
+        window.location.href = "/signup/index.html";
     });
 });
