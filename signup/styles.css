@@ -1,4 +1,10 @@
 /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #111;
@@ -6,31 +12,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* This ensures full height coverage */
     margin: 0;
-    padding: 20px;
 }
 
-/* Center the container */
+/* Centering Container */
 .container {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px; /* Reduced width for better visibility */
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-left: 350px;
 }
 
 /* Floating Effect for Form Box */
 .form-box {
+    /* margin-left: 700px !important; */
+    margin: 50px;
     background: #222;
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
     width: 100%;
+    text-align: center;
 }
 
 /* Input Group */
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 /* Labels */
@@ -43,13 +54,12 @@ label {
 /* Inputs */
 input, select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #555;
     border-radius: 8px;
     background: #333;
     color: #fff;
     font-size: 14px;
-    box-sizing: border-box; /* Ensures uniform padding */
 }
 
 /* Select Fields */
@@ -61,7 +71,7 @@ select {
 /* Textarea */
 textarea {
     resize: none;
-    height: 100px;
+    height: 80px;
 }
 
 /* Button */
@@ -88,26 +98,33 @@ textarea {
     font-size: 14px;
 }
 
-/* Mobile Responsiveness */
+/* 🔹 Ensure Form is Visible on Small Screens */
+html, body {
+    height: auto;
+    overflow-y: auto;
+}
+
+/* 🔹 Fix: Proper Responsiveness */
 @media (max-width: 600px) {
     body {
         height: auto;
-        padding: 30px 10px;
+        padding: 20px;
         align-items: flex-start;
     }
 
     .container {
         width: 100%;
-        max-width: 100%;
+        max-width: 90%;
         justify-content: center;
     }
 
     .form-box {
+        width: 100%;
         padding: 20px;
     }
 
     input, select, textarea {
-        padding: 10px;
+        padding: 8px;
         font-size: 14px;
     }
 
